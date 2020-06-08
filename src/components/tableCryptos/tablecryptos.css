@@ -1,0 +1,45 @@
+.table {
+    overflow: auto;
+}
+table {
+    margin: auto;
+    
+}
+caption {
+    font-size: 1.7em;
+    margin: 20px 0;
+}
+table, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th {
+    background-color:rgb(9, 5, 73);
+    color: white;
+    text-transform: capitalize;
+}
+th, td {
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+tr:hover {
+    background-color: #adabab;
+}
+/*
+table tr:nth-child(even) {
+    background-color: #eee;
+}
+table tr:nth-child(odd) {
+    background-color: #fff;
+}
+*/
+
+.flash-red {
+    background: rgba(244, 67, 54, 0.19);
+}
+.flash-green {
+    background: rgba(24, 198, 131, 0.19);
+}
+.neutral {
+    background: rgb(243, 243, 243)
+}

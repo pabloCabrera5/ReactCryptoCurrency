@@ -1,0 +1,17 @@
+
+.card {
+    margin: 5px;
+    border: 3px solid rgb(56, 65, 63);/*rgb(33, 221, 196);*/
+    border-radius: 5%;
+    box-shadow: 3px 3px 3px #ddd;
+    width: 23%;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 600px) {
+    .card {
+        width: 45%;
+    }
+}
