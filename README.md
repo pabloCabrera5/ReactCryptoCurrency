@@ -4,10 +4,6 @@
 This is an application that shows the price market value of differents cryptos! 
 Not finished yet, Under construction!
 
-## Application Visualization - Link
-
-Click in this link to see the app. [CryptoCurrency](https://cryptocurrency.now.sh/)
-
 
 ## Launch the project follow the nexts steps: 
 
