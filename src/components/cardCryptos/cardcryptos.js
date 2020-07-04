@@ -10,9 +10,10 @@ export const CardCryptos = () => {
 
     
     const { cryptos } = useCryptos();
+    if(!cryptos.length) return <h3>Loading cryptos...</h3>
     return (
         <div className='cardlist'>
-            {cryptos.map(crypto => <Card crypto={crypto} />)}
+            {cryptos.map(crypto => <Card key={crypto.id} crypto={crypto} />)}
         </div>
     )
 }

@@ -5,6 +5,7 @@ import useCryptos from '../../hooks/useCryptos';
 export const TableCryptos = ({ cryptosArray }) => {
     // console.log(Object.keys(cryptosArray[0]), Object.keys(cryptosArray), cryptosArray.keys(), 'table')
     const { cryptos } = useCryptos();
+    if(!cryptos.length) return <h3>Loading cryptos...</h3>
     return (
         <div className='table'>
             <table>
